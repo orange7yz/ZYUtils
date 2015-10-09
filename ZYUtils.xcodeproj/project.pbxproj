@@ -13,6 +13,14 @@
 		1F8617F11BC7B48F0088E222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8617EF1BC7B48F0088E222 /* Main.storyboard */; };
 		1F8617F31BC7B48F0088E222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8617F21BC7B48F0088E222 /* Assets.xcassets */; };
 		1F8617F61BC7B48F0088E222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8617F41BC7B48F0088E222 /* LaunchScreen.storyboard */; };
+		1F8618001BC7B4DF0088E222 /* ZYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8617FF1BC7B4DF0088E222 /* ZYAlertView.m */; settings = {ASSET_TAGS = (); }; };
+		1F8618041BC7B5940088E222 /* FrameFitSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8618031BC7B5940088E222 /* FrameFitSize.m */; settings = {ASSET_TAGS = (); }; };
+		1F8618071BC7B5D80088E222 /* MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8618061BC7B5D80088E222 /* MethodSwizzling.m */; settings = {ASSET_TAGS = (); }; };
+		1F86180C1BC7B6170088E222 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8618091BC7B6170088E222 /* UIImage+Utils.m */; settings = {ASSET_TAGS = (); }; };
+		1F86180D1BC7B6170088E222 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F86180B1BC7B6170088E222 /* UIView+Utils.m */; settings = {ASSET_TAGS = (); }; };
+		1F8618141BC7B63E0088E222 /* UICollectionView+ReuseIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F86180F1BC7B63E0088E222 /* UICollectionView+ReuseIdentifier.m */; settings = {ASSET_TAGS = (); }; };
+		1F8618151BC7B63E0088E222 /* UITableView+ReuseIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8618111BC7B63E0088E222 /* UITableView+ReuseIdentifier.m */; settings = {ASSET_TAGS = (); }; };
+		1F8618161BC7B63E0088E222 /* UIView+SuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8618131BC7B63E0088E222 /* UIView+SuperView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,23 @@
 		1F8617F21BC7B48F0088E222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F8617F51BC7B48F0088E222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F8617F71BC7B48F0088E222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8617FE1BC7B4DF0088E222 /* ZYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAlertView.h; sourceTree = "<group>"; };
+		1F8617FF1BC7B4DF0088E222 /* ZYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAlertView.m; sourceTree = "<group>"; };
+		1F8618011BC7B4FE0088E222 /* ZYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYMacro.h; sourceTree = "<group>"; };
+		1F8618021BC7B5940088E222 /* FrameFitSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameFitSize.h; sourceTree = "<group>"; };
+		1F8618031BC7B5940088E222 /* FrameFitSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameFitSize.m; sourceTree = "<group>"; };
+		1F8618051BC7B5D80088E222 /* MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzling.h; sourceTree = "<group>"; };
+		1F8618061BC7B5D80088E222 /* MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzling.m; sourceTree = "<group>"; };
+		1F8618081BC7B6170088E222 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		1F8618091BC7B6170088E222 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		1F86180A1BC7B6170088E222 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		1F86180B1BC7B6170088E222 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		1F86180E1BC7B63D0088E222 /* UICollectionView+ReuseIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+ReuseIdentifier.h"; sourceTree = "<group>"; };
+		1F86180F1BC7B63E0088E222 /* UICollectionView+ReuseIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+ReuseIdentifier.m"; sourceTree = "<group>"; };
+		1F8618101BC7B63E0088E222 /* UITableView+ReuseIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ReuseIdentifier.h"; sourceTree = "<group>"; };
+		1F8618111BC7B63E0088E222 /* UITableView+ReuseIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ReuseIdentifier.m"; sourceTree = "<group>"; };
+		1F8618121BC7B63E0088E222 /* UIView+SuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SuperView.h"; sourceTree = "<group>"; };
+		1F8618131BC7B63E0088E222 /* UIView+SuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuperView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 		1F8617E51BC7B48F0088E222 /* ZYUtils */ = {
 			isa = PBXGroup;
 			children = (
+				1F8617FD1BC7B4C40088E222 /* utils */,
 				1F8617E91BC7B48F0088E222 /* AppDelegate.h */,
 				1F8617EA1BC7B48F0088E222 /* AppDelegate.m */,
 				1F8617EC1BC7B48F0088E222 /* ViewController.h */,
@@ -77,6 +103,30 @@
 				1F8617E71BC7B48F0088E222 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F8617FD1BC7B4C40088E222 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1F86180E1BC7B63D0088E222 /* UICollectionView+ReuseIdentifier.h */,
+				1F86180F1BC7B63E0088E222 /* UICollectionView+ReuseIdentifier.m */,
+				1F8618101BC7B63E0088E222 /* UITableView+ReuseIdentifier.h */,
+				1F8618111BC7B63E0088E222 /* UITableView+ReuseIdentifier.m */,
+				1F8618121BC7B63E0088E222 /* UIView+SuperView.h */,
+				1F8618131BC7B63E0088E222 /* UIView+SuperView.m */,
+				1F8618081BC7B6170088E222 /* UIImage+Utils.h */,
+				1F8618091BC7B6170088E222 /* UIImage+Utils.m */,
+				1F86180A1BC7B6170088E222 /* UIView+Utils.h */,
+				1F86180B1BC7B6170088E222 /* UIView+Utils.m */,
+				1F8618051BC7B5D80088E222 /* MethodSwizzling.h */,
+				1F8618061BC7B5D80088E222 /* MethodSwizzling.m */,
+				1F8618021BC7B5940088E222 /* FrameFitSize.h */,
+				1F8618031BC7B5940088E222 /* FrameFitSize.m */,
+				1F8617FE1BC7B4DF0088E222 /* ZYAlertView.h */,
+				1F8617FF1BC7B4DF0088E222 /* ZYAlertView.m */,
+				1F8618011BC7B4FE0088E222 /* ZYMacro.h */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8618041BC7B5940088E222 /* FrameFitSize.m in Sources */,
+				1F8618161BC7B63E0088E222 /* UIView+SuperView.m in Sources */,
+				1F8618151BC7B63E0088E222 /* UITableView+ReuseIdentifier.m in Sources */,
 				1F8617EE1BC7B48F0088E222 /* ViewController.m in Sources */,
 				1F8617EB1BC7B48F0088E222 /* AppDelegate.m in Sources */,
+				1F86180C1BC7B6170088E222 /* UIImage+Utils.m in Sources */,
+				1F8618001BC7B4DF0088E222 /* ZYAlertView.m in Sources */,
+				1F8618071BC7B5D80088E222 /* MethodSwizzling.m in Sources */,
+				1F86180D1BC7B6170088E222 /* UIView+Utils.m in Sources */,
+				1F8618141BC7B63E0088E222 /* UICollectionView+ReuseIdentifier.m in Sources */,
 				1F8617E81BC7B48F0088E222 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
