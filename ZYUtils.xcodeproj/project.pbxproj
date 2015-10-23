@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4052161BC7CB2B00B05F71 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4052151BC7CB2B00B05F71 /* ArrayDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		1F5B2B261BD9D0BC006C9BE8 /* ImageAndLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B2B251BD9D0BC006C9BE8 /* ImageAndLabel.m */; settings = {ASSET_TAGS = (); }; };
+		1F5B2B291BD9DA39006C9BE8 /* ZYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B2B281BD9DA39006C9BE8 /* ZYView.m */; settings = {ASSET_TAGS = (); }; };
+		1F5B2B2B1BD9E438006C9BE8 /* search_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B2B2A1BD9E438006C9BE8 /* search_logo.png */; settings = {ASSET_TAGS = (); }; };
 		1F8617E81BC7B48F0088E222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8617E71BC7B48F0088E222 /* main.m */; };
 		1F8617EB1BC7B48F0088E222 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8617EA1BC7B48F0088E222 /* AppDelegate.m */; };
 		1F8617EE1BC7B48F0088E222 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8617ED1BC7B48F0088E222 /* ViewController.m */; };
@@ -24,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F4052141BC7CB2B00B05F71 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		1F4052151BC7CB2B00B05F71 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		1F5B2B241BD9D0BC006C9BE8 /* ImageAndLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndLabel.h; sourceTree = "<group>"; };
+		1F5B2B251BD9D0BC006C9BE8 /* ImageAndLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndLabel.m; sourceTree = "<group>"; };
+		1F5B2B271BD9DA39006C9BE8 /* ZYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYView.h; sourceTree = "<group>"; };
+		1F5B2B281BD9DA39006C9BE8 /* ZYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYView.m; sourceTree = "<group>"; };
+		1F5B2B2A1BD9E438006C9BE8 /* search_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_logo.png; sourceTree = "<group>"; };
 		1F8617E31BC7B48F0088E222 /* ZYUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8617E71BC7B48F0088E222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F8617E91BC7B48F0088E222 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +119,9 @@
 		1F8617FD1BC7B4C40088E222 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				1F5B2B2A1BD9E438006C9BE8 /* search_logo.png */,
+				1F4052141BC7CB2B00B05F71 /* ArrayDataSource.h */,
+				1F4052151BC7CB2B00B05F71 /* ArrayDataSource.m */,
 				1F86180E1BC7B63D0088E222 /* UICollectionView+ReuseIdentifier.h */,
 				1F86180F1BC7B63E0088E222 /* UICollectionView+ReuseIdentifier.m */,
 				1F8618101BC7B63E0088E222 /* UITableView+ReuseIdentifier.h */,
@@ -125,6 +139,10 @@
 				1F8617FE1BC7B4DF0088E222 /* ZYAlertView.h */,
 				1F8617FF1BC7B4DF0088E222 /* ZYAlertView.m */,
 				1F8618011BC7B4FE0088E222 /* ZYMacro.h */,
+				1F5B2B241BD9D0BC006C9BE8 /* ImageAndLabel.h */,
+				1F5B2B251BD9D0BC006C9BE8 /* ImageAndLabel.m */,
+				1F5B2B271BD9DA39006C9BE8 /* ZYView.h */,
+				1F5B2B281BD9DA39006C9BE8 /* ZYView.m */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -186,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5B2B2B1BD9E438006C9BE8 /* search_logo.png in Resources */,
 				1F8617F61BC7B48F0088E222 /* LaunchScreen.storyboard in Resources */,
 				1F8617F31BC7B48F0088E222 /* Assets.xcassets in Resources */,
 				1F8617F11BC7B48F0088E222 /* Main.storyboard in Resources */,
@@ -199,13 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5B2B261BD9D0BC006C9BE8 /* ImageAndLabel.m in Sources */,
 				1F8618041BC7B5940088E222 /* FrameFitSize.m in Sources */,
 				1F8618161BC7B63E0088E222 /* UIView+SuperView.m in Sources */,
 				1F8618151BC7B63E0088E222 /* UITableView+ReuseIdentifier.m in Sources */,
 				1F8617EE1BC7B48F0088E222 /* ViewController.m in Sources */,
 				1F8617EB1BC7B48F0088E222 /* AppDelegate.m in Sources */,
 				1F86180C1BC7B6170088E222 /* UIImage+Utils.m in Sources */,
+				1F4052161BC7CB2B00B05F71 /* ArrayDataSource.m in Sources */,
 				1F8618001BC7B4DF0088E222 /* ZYAlertView.m in Sources */,
+				1F5B2B291BD9DA39006C9BE8 /* ZYView.m in Sources */,
 				1F8618071BC7B5D80088E222 /* MethodSwizzling.m in Sources */,
 				1F86180D1BC7B6170088E222 /* UIView+Utils.m in Sources */,
 				1F8618141BC7B63E0088E222 /* UICollectionView+ReuseIdentifier.m in Sources */,
@@ -358,6 +380,7 @@
 				1F8617FC1BC7B48F0088E222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

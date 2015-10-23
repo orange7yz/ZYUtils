@@ -9,11 +9,6 @@
 #ifndef ZYMacro_h
 #define ZYMacro_h
 
-#define DATE_TIME_MINUTEX    (60)
-#define DATE_TIME_HOURS      (60*60)
-#define DATE_TIME_DAYTIME    (24*60*60)
-#define DATE_TIME_WEEKTIME   (7*24*60*60)
-
 #define NotNilArray(a)                      (a ? a : @[])
 #define NotNilString(s)                     (s ? s : @"")
 
